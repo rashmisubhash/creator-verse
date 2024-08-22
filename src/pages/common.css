@@ -1,0 +1,128 @@
+.header_bg {
+    height: 600px;
+    background-image: url(https://creatorverse-production.up.railway.app/static/media/banner.de5659898d3bfc5eb8ea.jpg);
+    background-size: cover;
+    background-position: center;
+    border-bottom: 2px solid rgb(66, 74, 89);
+    text-align: center;
+    padding-top: 8em;
+}
+
+h1 {
+    text-transform: uppercase;
+    line-height: 1em;
+    font-family: "Sono";
+    font-size: 8vw;
+    color: white
+}
+
+.button-class {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button-class button {
+    background-color: #5185B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+    padding: 20px 40px;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: "Poppins";
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    height: 3em;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.button-class a { text-decoration: none;}
+
+.add-creator {
+    background-color: black;
+    padding: 10% 30%;
+}
+
+.add-creator label {
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
+}
+
+.add-creator label img {
+    width: 24px;
+    margin-right: 10px;
+}
+
+.add-creator .info-text {
+    font-size: 0.6em;
+    font-style: italic;
+    padding-bottom: 10px;
+    color: white;
+    margin: 0px;
+}
+
+.add-creator h3 {
+    font-size: 1.6vw;
+    text-shadow: 1px 1px 1px #00060D;
+    font-family: "Poppins";
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: rgb(81, 133, 180);
+    text-transform: uppercase;
+    line-height: 1em;
+}
+
+#invalid-helper {
+    color: red;
+}
+
+.btn-sub {
+    text-align: center;
+}
+
+.btn-sub button{
+    margin: 10px 20px;
+    padding: 10px 40px;
+}
+
+.modal-del {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 4px solid #5185B4;
+    border-radius: 4px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 40em;
+    height: 30em;
+}
+
+.modal-del button {
+    --background-color: #5185B4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    font-family: Poppins;
+    font-weight: 700;
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1.3px;
+    height: 3em;
+    text-transform: uppercase;
+    cursor: pointer;
+    width: 17em;
+    margin: 10px 0px;
+}

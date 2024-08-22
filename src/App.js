@@ -1,24 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Link } from "react-router-dom"; // Import BrowserRouter as Router
+import Routes from "./Routes"; // This should be a separate component for your routes
+import { fetchCreators } from './crud/apis';
 
 function App() {
+  const [creators, setCreators] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const loadCreators = async () => {
+      const fetchedCreators = await fetchCreators();
+      if (fetchedCreators) {
+          setCreators(fetchedCreators);
+      }
+      setLoading(false);
+  };
+
+  loadCreators();
+  }, []);
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <div className="App">
+        {/* Header section */}
+        <div className="header_bg">
+          <h1>CREATORVERSE</h1>
+
+          <div className="button-class">
+            <Link to="/">
+              <button>View All Creators</button>
+            </Link>
+            <Link to="/add-creator">
+              <button>Add A Creator</button>
+            </Link>
+          </div>
+        </div>
+
+        {loading ? <p>Loading...</p> : <Routes creators={creators} />}
+      </div>
+    </Router>
   );
 }
 
