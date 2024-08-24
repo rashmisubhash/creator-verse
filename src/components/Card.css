@@ -2,8 +2,10 @@
     background-color: rgb(21, 18, 18); /* Dark background with slight transparency */
     color: white;
     border-radius: 4px;
-    padding: 140px 30px 40px 30px;
-    max-width: 100%; /* Adjust this to fit more cards in a row if necessary */
+    padding: 20px;
+    /* padding: 140px 30px 40px 30px; */
+    max-width: 400px; /* Adjust this to fit more cards in a row if necessary */
+    flex: 1 1 400px; /* Flex-grow: 1, flex-shrink: 1, flex-basis: 200px */
     margin: 15px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease;
@@ -27,7 +29,7 @@
   }
   
   .card-header h2 {
-    font-size: 1.2em;
+    font-size: 1.6vw;
     font-weight: bold;
     color: #4A90E2; /* Adjust this color to match the one in your design */
   }
@@ -51,14 +53,14 @@
   }
   
   .icons img {
-    width: 24px;
-    height: 24px;
+    width: 14px;
+    height: 14px;
     filter: brightness(0) invert(1); /* Make icons white */
     cursor: pointer;
   }
   
   .description {
-    font-size: 1em;
+    font-size: 0.8em;
     color: #ccc; /* Light gray for text */
     margin-top: 10px;
     line-height: 1.4;

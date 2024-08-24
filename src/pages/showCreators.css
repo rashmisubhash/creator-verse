@@ -1,9 +1,8 @@
 .cards-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(400px, 1fr));
-    gap: 20px;
-    padding: 100px 60px;
-    background-color: black;
-    justify-content: center;
-    text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: auto;
+  background-color: black;
+  grid-gap: 1rem;
+  padding: 2rem;
   }

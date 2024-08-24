@@ -1,0 +1,63 @@
+.container-outer {
+    background-color: black;
+    padding: 50px;
+
+    display: flex;
+    justify-content: center;
+}
+
+.ViewCreator {
+
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 3rem;
+    width: 70%;
+}
+
+.modify-creator {
+    display: flex;
+    grid-column: span 2;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0px;
+    height: max-content;
+}
+
+h2 {
+    font-size: 3vw;
+    color: #5185b4;
+}
+
+.creator-info p {
+    font-size: 1em;
+    color: white;
+}
+
+.creator-image img {
+    /* height: 400px; */
+    width: 400px;
+    border: 2px solid #5185b4;
+    border-radius: 2px;
+    object-fit: cover;
+}
+
+.modify-creator a {
+    text-decoration: none;
+    color: #5185b4;
+    padding: 6px;
+
+}
+
+.modify-creator button {
+    width: 8em;
+    margin-bottom: 0px;
+    margin-left: 40px;
+    margin-right: 40px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.delete-button {
+    background-color: rgb(255, 96, 92);
+}

@@ -87,7 +87,6 @@ const AddCreator = ({ creator, setShowAll }) => {
         name="text"
         id="textInput"
         aria-label="Text"
-        // aria-invalid= {nameErr}
         defaultValue={data.name}
         value={data.name}
         onChange={(e) => {
@@ -296,7 +295,6 @@ const AddCreator = ({ creator, setShowAll }) => {
         {data.id && (
           <button
             className="del-btn"
-            // disabled={errsObj.name || errsObj.description || errsObj.link_instagram || errsObj.link_twitter || errsObj.link_youtube}
             onClick={() => setDel(true)}
           >
             Delete
@@ -305,7 +303,6 @@ const AddCreator = ({ creator, setShowAll }) => {
 
         <Modal
           isOpen={isDel}
-          // appElement={document.getElementById('root')}
           onRequestClose={handleCloseModal}
           contentLabel="Delete Confirmation"
           className="modal-del"
