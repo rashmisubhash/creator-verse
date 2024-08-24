@@ -29,16 +29,20 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
+
+* [X] List anything else that you added to improve the site's functionality!
+- I added a back feature in the edit flow. I know there is a browser back, but I still having that button is more user friendly.
+
+
+## Video Walkthrough
+
+![Screen Recording 2024-08-24 at 08 06 12 (2)](https://github.com/user-attachments/assets/b000f59d-146a-426e-9215-af73de0ab3bc)
+
+
 ![Screen Recording 2024-08-24 at 08 06 12 (3)](https://github.com/user-attachments/assets/c73fe4c5-b802-4dfa-9891-5e8f969fbb55)
 
 
 ![Screen Recording 2024-08-24 at 08 06 12 (5)](https://github.com/user-attachments/assets/9c9eb606-1cc4-482e-bbf7-0484aa831df1)
-
-
-* [ ] List anything else that you added to improve the site's functionality!
-
-## Video Walkthrough
-![Screen Recording 2024-08-24 at 08 06 12 (2)](https://github.com/user-attachments/assets/b000f59d-146a-426e-9215-af73de0ab3bc)
 
 Here's a walkthrough of implemented required features:
 
@@ -48,10 +52,7 @@ Here's a walkthrough of implemented required features:
 - Next, we have the Add Artist flow. Where you can add all the fields. I have kept the Image URL as optional.
 - To view more info on a specific artist, you can click the info icon.
 - Then we can edit the artists by clicking on the pencil icon on the cards.
-- To Delete an artist, there is a button in the edit flow.
-
-Additional 
-- I added a back feature in the edit flow. I know there is a browser back, but I still having that button is more user friendly.
+- To Delete an artist, there is a button in the edit flow. 
 
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  👉🏿 GIF tool here
