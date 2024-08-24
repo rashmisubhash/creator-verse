@@ -32,21 +32,37 @@ The following **additional** features are implemented:
 * [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
+![Screen Recording 2024-08-21 at 23 14 58](https://github.com/user-attachments/assets/d924344c-fc92-45ae-8bc4-0669f430b26f)
 
 Here's a walkthrough of implemented required features:
 
 👉🏿<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+- There is the landing page. All the artists are shown as cards. With their titles, images, social handles, and desc as info on the cards.
+- Next, we have the Add Artist flow. Where you can add all the fields. I have kept the Image URL as optional.
+- To view more info on a specific artist, you can click the info icon.
+- Then we can edit the artists by clicking on the pencil icon on the cards.
+- To Delete an artist, there is a button in the edit flow.
+
+Additional 
+- I did not use a filter API because I did not find the need to. The GET API has the results of all the artists. So I did not think it was necessary.
+- I added a back feature in the edit flow. I know there is a browser back, but I still having that button is more user friendly.
+
 <!-- Replace this with whatever GIF tool you used! -->
 GIF created with ...  👉🏿 GIF tool here
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
+[ScreenToGif](https://www![Screen Recording 2024-08-21 at 23 14 58](https://github.com/user-attachments/assets/4d53ab79-543c-495a-8b46-ef0222471926)
+.screentogif.com/) for Windows
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
 
 Describe any challenges encountered while building the app or any additional context you'd like to add.
+
+I encountered a few challenges when I was configuring the backend.
+I was initially using the given policies for the table. Later, when I realized that it might get complicated for all the CRUD operations, I created my own policies in the SQL editor.
+Then it was easy for me to figure out how to query the APIs.
 
 ## License
 
