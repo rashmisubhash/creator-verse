@@ -1,2 +1,0 @@
-# creator-verse
-Codepath Project
