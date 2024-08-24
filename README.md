@@ -16,7 +16,7 @@ The following **required** functionality is completed:
 - [X] **Each content creator item includes their name, a link to their channel/page, and a short description of their content**
 - [X] **API calls use the async/await design pattern via Axios or fetch()**
 - [X] **Clicking on a content creator item takes the user to their details page, which includes their name, url, and description**
-- [] **Each content creator has their own unique URL**
+- [X] **Each content creator has their own unique URL**
 - [X] **The user can edit a content creator to change their name, url, or description**
 - [X] **The user can delete a content creator**
 - [X] **The user can add a new content creator by entering a name, url, or description and then it is displayed on the homepage**
@@ -29,10 +29,16 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
+![Screen Recording 2024-08-24 at 08 06 12 (3)](https://github.com/user-attachments/assets/c73fe4c5-b802-4dfa-9891-5e8f969fbb55)
+
+
+![Screen Recording 2024-08-24 at 08 06 12 (5)](https://github.com/user-attachments/assets/9c9eb606-1cc4-482e-bbf7-0484aa831df1)
+
+
 * [ ] List anything else that you added to improve the site's functionality!
 
 ## Video Walkthrough
-![Screen Recording 2024-08-21 at 23 14 58](https://github.com/user-attachments/assets/d924344c-fc92-45ae-8bc4-0669f430b26f)
+![Screen Recording 2024-08-24 at 08 06 12 (2)](https://github.com/user-attachments/assets/b000f59d-146a-426e-9215-af73de0ab3bc)
 
 Here's a walkthrough of implemented required features:
 
@@ -45,7 +51,6 @@ Here's a walkthrough of implemented required features:
 - To Delete an artist, there is a button in the edit flow.
 
 Additional 
-- I did not use a filter API because I did not find the need to. The GET API has the results of all the artists. So I did not think it was necessary.
 - I added a back feature in the edit flow. I know there is a browser back, but I still having that button is more user friendly.
 
 <!-- Replace this with whatever GIF tool you used! -->
